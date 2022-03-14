@@ -32,9 +32,9 @@ class FilterTest {
         Hotel hotel3 = new Hotel(location2, 3.0F);
         Hotel hotel4 = new Hotel(location3, 3.5F);
 
-        Activity activity1 = new Activity(location1, 4.9F, 20D, 75D);
-        Activity activity2 = new Activity(location2, 4.7F, 30D, 75D);
-        Activity activity3 = new Activity(location3, 3.0F, 40D, 75D);
+        Activity activity1 = new Activity(location1, 4.9F, 20D);
+        Activity activity2 = new Activity(location2, 4.7F, 30D);
+        Activity activity3 = new Activity(location3, 3.0F, 40D);
 
         Airport airport1 = new Airport(location1, 3.1F);
         Airport airport2 = new Airport(location2, 3.5F);
